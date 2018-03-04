@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+	<p>
+		<label for = "fname">First Name:</label>
+		<input type="text" id = "fname" name="fname" placeholder="John" required>
+		<label for = "lname">Last Name:</label>
+		<input type="text" id = "lname" name="lname" placeholder="Smith" required>
+	</p>
+	<p>
+		<label for="male">Male</label>	
+		<input type="radio" name="gender" id="male" value="Male">
+		<label for="female">Female</label>
+		<input type="radio" name="gender" id="female" value="Female">
+		<label for="other">Other</label>
+		<input type="radio" name="gender" id="other" value="Other">
+	</p>
+	<p>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" placeholder="your email" required>
+		<label for="password">Password:</label>
+		<input type="password" name="password" minlength="5" maxlength="10" id="password" placeholder="password" required>
+
+	</p>
+	<p>
+		<label for="bday">BirthDay:</label>
+		<select id="mon" name="Month">
+			<option value="Jan">1</option>
+			<option value="Feb">2</option>
+			<option value="Mar">3</option>
+			<option value="Apr">4</option>
+			<option value="May">5</option>
+			<option value="Jun">6</option>
+			<option value="Jul">7</option>
+
+		</select>
+		<select id="day" name="Day">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+
+		</select>
+		<select id="year" name="Year">
+			<option value="1997">1997</option>
+			<option value="1998">1998</option>
+			<option value="1999">1999</option>
+			<option value="2000">2000</option>
+			<option value="2001">2001</option>
+			<option value="2002">2002</option>
+			<option value="2003">2003</option>
+
+		</select>
+
+	</p>
+	<p>
+		<label for="tnc">I agree to the terms and conditions</label>
+		<input type="checkbox" name="tnc" id="tnc">
+	</p>
+	<p>
+		<input type="submit" name="submit">
+	</p>
+</form>
+</body>
+</html>
